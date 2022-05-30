@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "98766198591",
+    "firebase_url": "https://unity-zombies-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "unity-zombies",
+    "storage_bucket": "unity-zombies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98766198591:ios:bc257b897b948f7865658a",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.ZombieSurvival"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98766198591-1ktpfk6i91ko5sr21e14i7sevlpq1678.apps.googleusercontent.com"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGq4bEo_zUy_5rD9A-kPCJH7X5SDZ7Iww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

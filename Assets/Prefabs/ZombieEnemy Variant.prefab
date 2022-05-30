@@ -3840,8 +3840,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b750e4d18defe491fbe7fa298699e31f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  health: 0
+  maxHealth: 70
+  health: 70
   onDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -3850,6 +3850,12 @@ MonoBehaviour:
       m_Calls: []
   zombie: {fileID: 742845265}
   animator: {fileID: 5362930077065634202}
+  healthPickupObject: {fileID: 243485857869565757, guid: a821c6ae89aa24f6ba6689a8872d1595, type: 3}
+  bulletsBoxObject: {fileID: 3561938975526879464, guid: aa4987322559441309f409711ceca50c, type: 3}
+  droppableRifle: {fileID: 155948215843379178, guid: b0164c50adada4f9aaf932ad491882b4, type: 3}
+  droppableShotgun: {fileID: 7373527112309535630, guid: 55862a7c85ef142febd34771c5ce23a6, type: 3}
+  droppableRPG: {fileID: 4171111101423777853, guid: d1b65fb93b3524fd8ab4f17ba5a9726b, type: 3}
+  droppableMinigun: {fileID: 8183405984219172276, guid: 3d67acf1dd3ce4529926e097bac06afb, type: 3}
 --- !u!136 &1189290995
 CapsuleCollider:
   m_ObjectHideFlags: 0

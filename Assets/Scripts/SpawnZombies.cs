@@ -8,9 +8,11 @@ public class SpawnZombies : MonoBehaviour
     public GameObject zombieObject;
     public int interval;
     public float radius;
+    TimerController timerController;
 
     void Start()
     {
+        timerController = GameObject.Find("Timer").GetComponent<TimerController>();
         StartCoroutine(ZombieSpawn());
     }
     private Vector3 GetRandomPosition()
@@ -30,7 +32,22 @@ public class SpawnZombies : MonoBehaviour
         while(true) {
             GameObject zombie = Instantiate(zombieObject, GetRandomPosition(), Quaternion.identity);
             zombie.GetComponent<ZombieChase>().player = player;
-            Debug.Log("zombie spawned");
+            float elapsedTime = timerController.GetElapsedTime();
+            if(elapsedTime > 180) {
+                interval = 5;
+            }
+            else if (elapsedTime > 120) {
+                interval = 6;
+            } 
+            else if (elapsedTime > 90) {
+                interval = 7;
+            } 
+            else if (elapsedTime > 60) {
+                interval = 8;
+            }  
+            else if (elapsedTime > 30) {
+                interval = 8;
+            } 
             yield return new WaitForSeconds(interval);
         }
     }

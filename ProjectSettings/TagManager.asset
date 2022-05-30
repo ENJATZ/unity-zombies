@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - WeaponHolder
+  - ScoreboardItem
   layers:
   - Default
   - TransparentFX

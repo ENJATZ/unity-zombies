@@ -1,0 +1,67 @@
+# Blender 3.1.0 MTL File: 'bullets_box.blend'
+# www.blender.org
+
+newmtl bullet_with_texture
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.640909 0.640909 0.640909
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  ../../../../../../Downloads/Bullet_high_textures/Bullet diffuse.png
+map_Ns  ../../../../../../Downloads/Bullet_high_textures/Bullet roughnes.png
+map_Bump  -bm 0.400000 ../../../../../../Downloads/Bullet_high_textures/Bullet metalnes.png
+
+newmtl bullet_with_texture.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.640909 0.640909 0.640909
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  ../../../../../../Downloads/Bullet_high_textures/Bullet diffuse.png
+map_Ns  ../../../../../../Downloads/Bullet_high_textures/Bullet roughnes.png
+map_Bump  -bm 0.400000 ../../../../../../Downloads/Bullet_high_textures/Bullet metalnes.png
+
+newmtl bullet_with_texture.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.640909 0.640909 0.640909
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  ../../../../../../Downloads/Bullet_high_textures/Bullet diffuse.png
+map_Ns  ../../../../../../Downloads/Bullet_high_textures/Bullet roughnes.png
+map_Bump  -bm 0.400000 ../../../../../../Downloads/Bullet_high_textures/Bullet metalnes.png
+
+newmtl bullet_with_texture.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.640909 0.640909 0.640909
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  ../../../../../../Downloads/Bullet_high_textures/Bullet diffuse.png
+map_Ns  ../../../../../../Downloads/Bullet_high_textures/Bullet roughnes.png
+map_Bump  -bm 0.400000 ../../../../../../Downloads/Bullet_high_textures/Bullet metalnes.png
+
+newmtl bullet_with_texture.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.640909 0.640909 0.640909
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  ../../../../../../Downloads/Bullet_high_textures/Bullet diffuse.png
+map_Ns  ../../../../../../Downloads/Bullet_high_textures/Bullet roughnes.png
+map_Bump  -bm 0.400000 ../../../../../../Downloads/Bullet_high_textures/Bullet metalnes.png
