@@ -46,6 +46,12 @@ Free assets have been used from **Unity Assets Store**:
  - [Zombie Animation Pack](https://assetstore.unity.com/packages/3d/animations/zombie-animation-pack-free-150219)
  - [Modern Zombies (Models)](https://assetstore.unity.com/packages/3d/characters/humanoids/modern-zombie-free-58134)
 
+## Screenshots
+![Main menu](https://github.com/ENJATZ/unity-zombies/blob/main/Screenshots/screenshot1.png?raw=true)
+![Scoreboard](https://github.com/ENJATZ/unity-zombies/blob/main/Screenshots/screenshot3.png?raw=true)
+![Game 1](https://github.com/ENJATZ/unity-zombies/blob/main/Screenshots/screenshot4.png?raw=true)
+![Collectables](https://github.com/ENJATZ/unity-zombies/blob/main/Screenshots/screenshot5.png?raw=true)
+
 ## License
 MIT License
 
