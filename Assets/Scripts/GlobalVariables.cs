@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
  public static class GlobalVariables{
-    public static string playerName;
+    public static string playerName = "Player";
     public static int score = 0; 
 
     public static void SetPlayerName(string name) {
