@@ -28,7 +28,7 @@ You, as a player are a first person controller (FPS) starting with an MP-5. Zomb
     - 30% Shotgun
   - **after 100 seconds of elapsed time played**:
     - 25% Minigun
- - **after 120 seconds of elapsed time played**:
+  - **after 120 seconds of elapsed time played**:
     - 20% Rocket Launcher
 
 *(!) Only one utility and only one weapon can be dropped on each death event.*
