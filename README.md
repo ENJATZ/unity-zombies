@@ -23,13 +23,13 @@ You, as a player are a first person controller (FPS) starting with an MP-5. Zomb
   - **40% chnance** to drop a **collection of bullets**, which will refill the player's current weapon
 - on death of each zombie, there is a percentage of dropping one of the following weapons:
   - **after 20 seconds of elapsed time played**:
-   - 35% Assault Rifle
+    - 35% Assault Rifle
   - **after 40 seconds of elapsed time played**:
-   - 30% Shotgun
+    - 30% Shotgun
   - **after 100 seconds of elapsed time played**:
-   - 25% Minigun
+    - 25% Minigun
  - **after 120 seconds of elapsed time played**:
-   - 20% Rocket Launcher
+    - 20% Rocket Launcher
 
 *(!) Only one utility and only one weapon can be dropped on each death event.*
 
