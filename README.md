@@ -19,23 +19,23 @@ You, as a player are a first person controller (FPS) starting with an MP-5. Zomb
 
 **Zombie drop**
 - on death of each zombie, there is a percentage of dropping one of the following utilities:
--- **30% chance** to drop a **health pickup**, which will restore 10 health points to the player
--- **40% chnance** to drop a **collection of bullets**, which will refill the player's current weapon
+ - **30% chance** to drop a **health pickup**, which will restore 10 health points to the player
+ - **40% chnance** to drop a **collection of bullets**, which will refill the player's current weapon
 - on death of each zombie, there is a percentage of dropping one of the following weapons:
 **after 20 seconds of elapsed time played**:
--- 35% Assault Rifle
+ - 35% Assault Rifle
 **after 40 seconds of elapsed time played**:
--- 30% Shotgun
+ - 30% Shotgun
 **after 100 seconds of elapsed time played**:
--- 25% Minigun
+ - 25% Minigun
 **after 120 seconds of elapsed time played**:
--- 20% Rocket Launcher
+ - 20% Rocket Launcher
 
 *(!) Only one utility and only one weapon can be dropped on each death event.*
 
 ## Scoreboard
 
-Within the main menu screen, the player can cange it's name by going to **Settings**.  The name is being used to save the player within the **Firestore Realtime Database**. The scoreboard can be seen by clicking the **Scoreboard** from the main menu.
+Within the main menu screen, the player can cange it's name by going to **Settings**.  The name is being used to save the player within the **Firebase Realtime Database**. The scoreboard can be seen by clicking the **Scoreboard** from the main menu.
 
 ## References
 
