@@ -13,23 +13,23 @@ You, as a player are a first person controller (FPS) starting with an MP-5. Zomb
 
 **Zombie spawner mechanism:**
  - there will be another zombie spawned each **10 seconds**
-  - this interval will decrease based on the time you are staying alive, **down to 5 seconds**
+   - this interval will decrease based on the time you are staying alive, **down to 5 seconds**
  - the zombie will be spawned everywhere around the player within a radius of **10 yards** (can be changed by changing the gameobject's script field)
  - each zombie's Y position will be established usign RayCast to the ground
 
 **Zombie drop**
 - on death of each zombie, there is a percentage of dropping one of the following utilities:
- - **30% chance** to drop a **health pickup**, which will restore 10 health points to the player
- - **40% chnance** to drop a **collection of bullets**, which will refill the player's current weapon
+  - **30% chance** to drop a **health pickup**, which will restore 10 health points to the player
+  - **40% chnance** to drop a **collection of bullets**, which will refill the player's current weapon
 - on death of each zombie, there is a percentage of dropping one of the following weapons:
- - **after 20 seconds of elapsed time played**:
-  - 35% Assault Rifle
- - **after 40 seconds of elapsed time played**:
-  - 30% Shotgun
- - **after 100 seconds of elapsed time played**:
-  - 25% Minigun
+  - **after 20 seconds of elapsed time played**:
+   - 35% Assault Rifle
+  - **after 40 seconds of elapsed time played**:
+   - 30% Shotgun
+  - **after 100 seconds of elapsed time played**:
+   - 25% Minigun
  - **after 120 seconds of elapsed time played**:
-  - 20% Rocket Launcher
+   - 20% Rocket Launcher
 
 *(!) Only one utility and only one weapon can be dropped on each death event.*
 
